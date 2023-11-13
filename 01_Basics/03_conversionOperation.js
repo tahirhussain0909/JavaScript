@@ -7,12 +7,6 @@ let valueInNumber = Number(score);
 // console.log(typeof valueInNumber);
 // console.log(valueInNumber);
 
-if (valueInNumber == Number) {
-    console.log(typeof valueInNumber);
-} else {
-    console.log("valueInNumber is not a number");
-}
-
 // "33" => 33
 // "33abc" => NaN
 // true => 1; false => 0
@@ -21,7 +15,7 @@ let isLoggedIn = "tahir";
 
 let booleanIsLoggedIN = Boolean(isLoggedIn);
 
-console.log(booleanIsLoggedIN);
+// console.log(booleanIsLoggedIN);
 
 // 1 => true; 0 => false
 // "" => false
@@ -29,4 +23,27 @@ console.log(booleanIsLoggedIN);
 
 let someNumber = 33;
 let stringNumber = String(someNumber);
-console.log(typeof stringNumber);
+// console.log(typeof stringNumber);
+
+// ************************************** Operations *************************************
+
+let value = 3;
+let negValue = -value;
+// console.log(negValue);
+
+let str1 = "hello";
+let st2 = " tahir";
+
+let str3 = str1 + st2;
+// console.log(str3);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+// console.log((3 + 4) * 5 % 3);
+
+// above expression are not good practice and is a bad habit
+
+console.log(+true);
+console.log(+"");
