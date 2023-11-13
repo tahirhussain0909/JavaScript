@@ -47,5 +47,7 @@ let str3 = str1 + st2;
 
 // above expression are not good practice and is a bad habit
 
-console.log(+true);
-console.log(+"");
+// console.log(+true);
+// console.log(+"");
+
+
