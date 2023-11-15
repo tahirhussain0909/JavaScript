@@ -9,8 +9,8 @@ const isLoggedIn = false;
 const outsideTemp = null;
 let userEmail = undefined;
 
-const id = Symbol('123');
-const anotherId = Symbol('123');
+const id = Symbol("123");
+const anotherId = Symbol("123");
 
 console.log(id === anotherId);
 
@@ -19,3 +19,15 @@ const bigNumber = 12343434323255351232n;
 // # Reference (Non primitive)
 
 // Array, Objects, Functions
+
+const heros = ["krish", "sing is king", "son of sardar"];
+
+let myObj = {
+    name: "tahir",
+    age: 22,
+};
+
+const myFunction = function () {
+    console.log("Hello, World");
+};
+
